@@ -6,7 +6,6 @@ const Posts = () => {
 
 	return (
 		<>
-			{!isLoading && POSTS?.length === 0 && <p className='text-center my-4'>No posts in this tab. Switch 👻</p>}
 			{!isLoading && POSTS && (
 				<div>
 					{POSTS.map((post) => (
